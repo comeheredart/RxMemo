@@ -8,6 +8,7 @@
 import UIKit
 
 protocol ViewModelBindableType {
+    //https://zeddios.tistory.com/382
     associatedtype ViewModelType
     
     var viewModel: ViewModelType! { get set }
