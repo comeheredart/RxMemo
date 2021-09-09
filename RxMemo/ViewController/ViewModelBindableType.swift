@@ -19,7 +19,7 @@ protocol ViewModelBindableType {
 
 extension ViewModelBindableType where Self: UIViewController {
     //뷰 컨에 추가된 뷰모델의 속성의 실제 뷰모델을 정의, bind 메소드 자동호출
-    mutating func bind() {
+    mutating func bind(viewModel: ViewModelType) {
         
         self.viewModel = viewModel
         loadViewIfNeeded()
