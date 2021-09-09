@@ -25,6 +25,7 @@
 		701FFD7726E859B100C47C21 /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FFD7626E859B100C47C21 /* ViewModelBindableType.swift */; };
 		701FFD7926E85BA200C47C21 /* TransitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FFD7826E85BA200C47C21 /* TransitionModel.swift */; };
 		701FFD7B26E85BE100C47C21 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FFD7A26E85BE100C47C21 /* Scene.swift */; };
+		701FFD7D26EA27A100C47C21 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FFD7C26EA27A100C47C21 /* SceneCoordinatorType.swift */; };
 		CFEA1712BD559AE07995C2F5 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3E16FB7584E0B468FCA785 /* Pods_RxMemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		701FFD7626E859B100C47C21 /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
 		701FFD7826E85BA200C47C21 /* TransitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionModel.swift; sourceTree = "<group>"; };
 		701FFD7A26E85BE100C47C21 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		701FFD7C26EA27A100C47C21 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		AA3E16FB7584E0B468FCA785 /* Pods_RxMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24CADAFFA3C1AF81E27E7E0 /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 			children = (
 				701FFD7826E85BA200C47C21 /* TransitionModel.swift */,
 				701FFD7A26E85BE100C47C21 /* Scene.swift */,
+				701FFD7C26EA27A100C47C21 /* SceneCoordinatorType.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				701FFD6526E84E9700C47C21 /* MemoStorageType.swift in Sources */,
 				701FFD4926E8466F00C47C21 /* SceneDelegate.swift in Sources */,
 				701FFD5126E8466F00C47C21 /* RxMemo.xcdatamodeld in Sources */,
+				701FFD7D26EA27A100C47C21 /* SceneCoordinatorType.swift in Sources */,
 				701FFD7126E8590F00C47C21 /* MemoListViewModel.swift in Sources */,
 				701FFD7326E8593F00C47C21 /* MemoDetailViewModel.swift in Sources */,
 				701FFD7926E85BA200C47C21 /* TransitionModel.swift in Sources */,
