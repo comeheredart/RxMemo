@@ -13,5 +13,5 @@ protocol SceneCoordinatorType {
     func transtion(to scene: Scene, using style: TransitionStyle, animated: Bool) -> Completable
     
     @discardableResult
-    func close(animated: Bool) -> Completable 
+    func close(animated: Bool) -> Completable
 }
