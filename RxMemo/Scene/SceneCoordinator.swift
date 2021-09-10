@@ -24,7 +24,29 @@ class SceneCoordinator: SceneCoordinatorType {
     
     @discardableResult
     func transtion(to scene: Scene, using style: TransitionStyle, animated: Bool) -> Completable {
-        <#code#>
+        let subject = PublishSubject<Void>()
+        let target = scene.instantiate()
+        switch style {
+        case .root:
+            currentVC = target
+            window.rootViewController = target
+            subject.onCompleted()
+            
+        case .push:
+            guard let nav = currentVC.navigationController else {
+                subject.onError(TransitionError.navigationControllerMissing)
+                break
+            }
+            
+            nav.pushViewController(target, animated: animated)
+            currentVC = target
+            
+            subject.onCompleted()
+            
+        case .modal:
+        default:
+            <#code#>
+        }
     }
     
     
